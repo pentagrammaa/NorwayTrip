@@ -50,6 +50,7 @@
 .allpics li img {
   width: 370px;
   height: 200px;
+  margin: 10px;
 }
 
 #wrap1 {
