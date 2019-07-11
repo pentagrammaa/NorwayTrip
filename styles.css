@@ -1,0 +1,76 @@
+.introsection {
+  position: relative;
+}
+
+.introsection img {
+  width: 100%;
+}
+
+.introsection p {
+  position: absolute;
+  font-size: 150px;
+  color: black;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  top: 10px;
+}
+
+#sub-title {
+  text-align: right;
+  margin-top: 290px;
+  color: blue;
+  font-style: italic;
+  font-size: 250px;
+}
+
+#picsbyday p {
+  font-size: 60px;
+  margin: 30px;
+}
+
+#daysmenu li {
+  width: 20%;
+  float: left;
+  font-size: 30px;
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+.allpics li {
+  width: 20%;
+  float: left;
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.allpics li img {
+  width: 370px;
+  height: 200px;
+}
+
+#wrap1 {
+  position: relative;
+}
+
+#wrap1 span {
+  border-style: dashed;
+  width: 50%;
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  top: 10px;
+  margin-bottom: 60px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 2400px) {
+  .allpics li img {
+    width: 470px;
+    height: 265px;
+  }
+}
