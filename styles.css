@@ -48,9 +48,8 @@
 }
 
 .allpics li img {
-  width: 370px;
-  height: 200px;
-  margin: 10px;
+  width: 350px;
+  height: 180px;
 }
 
 #wrap1 {
@@ -101,5 +100,18 @@
   #picsbyday p {
     font-size: 30px;
     margin: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #wrap1 {
+    width: 50%;
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    text-align: center;
   }
 }
